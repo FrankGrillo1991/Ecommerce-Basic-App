@@ -209,4 +209,12 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
+.call-to-action input[type="email"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+}
+
 
