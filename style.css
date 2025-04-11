@@ -78,5 +78,13 @@ nav ul li a:hover {
     font-size: 0.8rem;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: none;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
 
 
