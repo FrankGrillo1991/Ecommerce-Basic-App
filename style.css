@@ -165,4 +165,10 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
+.product-card h3 {
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
 
