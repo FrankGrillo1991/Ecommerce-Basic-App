@@ -42,3 +42,8 @@ nav ul {
     list-style: none;
     display: flex;
 }
+
+nav ul li {
+    margin-left: 20px;
+}
+
