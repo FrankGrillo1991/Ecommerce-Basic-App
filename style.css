@@ -191,3 +191,10 @@ nav ul li a:hover {
 }
 
 /* Call to Action Section */
+.call-to-action {
+    background-color: #e9acef;
+    padding: 50px;
+    text-align: center;
+}
+
+
