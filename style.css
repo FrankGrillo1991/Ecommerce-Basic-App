@@ -186,4 +186,8 @@ nav ul li a:hover {
     transition: background-color 0.3 ease;
 }
 
+.product-card button.add-to-cart:hover {
+    background-color: #1e7e34;
+}
 
+/* Call to Action Section */
