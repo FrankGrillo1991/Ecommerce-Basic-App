@@ -57,20 +57,6 @@ nav ul li a:hover {
     color: #007bff;
 }
 
-.cart-icon a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #555;
-}
-
-.cart-icon i {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    font-size: 0.8rem;
-}
-
 .cart-count {
     background-color: #007bff;
     color: #fff;
