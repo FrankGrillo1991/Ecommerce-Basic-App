@@ -242,4 +242,83 @@ footer {
 }
 
 /* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
 
+    nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .product-card {
+        grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    }
+
+    .call-to-action form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-to-action input[type="email"] {
+        border-radius: 5px;
+        margin-bottom: 10px;'
+        width: 100%;
+    }
+
+    .call-to-action input[type="submit"] {
+        border-radius: 5px;
+        width: 100%;
+    }
+
+
+}
